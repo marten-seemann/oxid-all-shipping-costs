@@ -1,0 +1,22 @@
+{
+  "name": "seemannit/allshippingcosts",
+  "description": "AlhippingCosts Module",
+  "type": "oxideshop-module",
+  "homepage": "https://www.oxid-responsive.com",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": [
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "seemannit/allshippingcosts"
+    }
+  },
+  "autoload": {
+      "psr-4": {
+          "SeemannIT\\AllShippingCostsModule\\": "../../../source/modules/seemannit/allshippingcosts"
+      }
+  }
+}
